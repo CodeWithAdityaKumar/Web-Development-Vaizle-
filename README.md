@@ -1,6 +1,6 @@
 <h1>Explanation:</h1>
 
-1. <b>Step 1:</b> The function iterates through the input dictionary D, extracting the day of the week for each date key (using getDayOfWeek). It sums the corresponding values for each day and stores them in the result dictionary.
+1. <b>Step 1:</b> This function goes through the entirety of the dictionary D supplied and for every date key, gets the day of the week the date falls on (Implemented using getDayOfWeek). It goes on where there are values for each day and adds them in the value portion of the result dictionary.
 
 
-2. <b>Step 2:</b> If any day in the result dictionary has no entries (i.e., its value is still 0), the algorithm calculates the mean of the previous and next days in the week and assigns it to the missing day.
+2. <b>Step 2:</b> Should any of the days of the week still remain with no entries as made into the result dictionary whose value still retains the value 0, the algorithm recalls the previous and the next days in the week and averages them to fill in the missing day.
